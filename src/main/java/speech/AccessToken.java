@@ -10,7 +10,7 @@ public class AccessToken {
 
     private String access_token;
 
-    private int  expires_in; //有效时间（两个小时，7200s）
+    private int  expires_in; //有效时间（两个小时，86400s）
 
     public String getAccess_token() {
         return access_token;
